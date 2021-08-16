@@ -654,7 +654,7 @@ body.ie ._ibg img {
 }
 
 .menu__link._active {
-  color: rgba(252, 178, 174, 0.85);
+  color: #f2898b;
 }
 
 .menu__link:hover {
