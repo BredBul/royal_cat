@@ -1059,7 +1059,7 @@ footer {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #f79ecd;
+  background-color: #ff2e89;
 }
 
 .slide-mainslider__background:after {
@@ -1070,7 +1070,7 @@ footer {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.25);
 }
 
 .control-mainslider {
@@ -1175,7 +1175,7 @@ footer {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #f79ecd;
+  background-color: #ff2e89;
 }
 
 .card__bg img {
@@ -1280,7 +1280,7 @@ footer {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #f79ecd;
+  background-color: #ff2e89;
 }
 
 .whyus {
@@ -1531,9 +1531,9 @@ footer {
 
 @media (any-hover: hover) {
   .slide-mainslider__btn:hover {
-    background: #f79ecd;
-    -webkit-box-shadow: 0 0 5px #f79ecd, 0 0 25px #f79ecd, 0 0 50px #f79ecd, 0 0 200px #f79ecd;
-            box-shadow: 0 0 5px #f79ecd, 0 0 25px #f79ecd, 0 0 50px #f79ecd, 0 0 200px #f79ecd;
+    background: #ff2e89a8;
+    -webkit-box-shadow: 0 0 15px #ff2e89, 0 0 50px #ff2e89, 0 0 75px #ff2e89, 0 0 125px #ff2e89;
+            box-shadow: 0 0 15px #ff2e89, 0 0 50px #ff2e89, 0 0 75px #ff2e89, 0 0 125px #ff2e89;
   }
 
   .row-whyus__title a:hover {
