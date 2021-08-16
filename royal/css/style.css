@@ -1026,7 +1026,7 @@ footer {
 }
 
 .slide-mainslider__title {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: white;
   font-family: Montserrat;
   font-size: calc(40px + 40 * ((100vw - 320px) / 1600));
@@ -1037,6 +1037,20 @@ footer {
 
 .slide-mainslider__text {
   max-width: 500px;
+}
+
+.slide-mainslider__btn {
+  padding: 10px 25px;
+  border: 3px solid white;
+  font-family: Montserrat;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .slide-mainslider__background {
@@ -1178,7 +1192,7 @@ footer {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.15);
 }
 
 .card__desc {
@@ -1516,6 +1530,12 @@ footer {
 }
 
 @media (any-hover: hover) {
+  .slide-mainslider__btn:hover {
+    background: #f79ecd;
+    -webkit-box-shadow: 0 0 5px #f79ecd, 0 0 25px #f79ecd, 0 0 50px #f79ecd, 0 0 200px #f79ecd;
+            box-shadow: 0 0 5px #f79ecd, 0 0 25px #f79ecd, 0 0 50px #f79ecd, 0 0 200px #f79ecd;
+  }
+
   .row-whyus__title a:hover {
     color: #ff1a56;
   }
